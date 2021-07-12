@@ -11,7 +11,55 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* header styles */
 
+.container{
+    display: flex;
+    background-color: #562EFF;
+    height: 94px;
+    width: 100%;
+    align-items: center;
+}
+.navber{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.nav-logo img{
+    width: 41px;
+    height: 51px;
+}
+.nav-logo h2{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    margin-left: 16px;
+}
+.nav-aitem{
+    margin-right: 100px;
+}
+.nav-aitem ul {
+    display: flex;
+    align-items: center;
+}
+.nav-aitem ul li{
+    list-style: none;
+}
+.nav-aitem ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.nav-aitem img{
+    width: 60px;
+    height: 60px;
+}
 
 /* top players and top blogs */
 .players-container{
